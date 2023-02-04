@@ -1,0 +1,78 @@
+/* //// Delivery or Pick Up */
+.extra-info{
+    /* border: solid 2px rebeccapurple; */
+    width: 100%;
+    margin: 0 auto;
+    margin: 15px 0 0 0;
+}
+
+.pickupDiv{
+    /* border: solid 2px greenyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.deliverDiv{
+    /* border: solid 2px greenyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.pickupDiv label, #pickup{
+    flex: 1;
+}
+
+#pickup{
+    flex: .5;
+}
+
+.deliverDiv label{
+    flex: 1;
+}
+
+#delivery{
+    flex: 1;
+}
+
+/* //// Cash or Transfer */
+.extra-info2{
+    /* border: solid 2px rebeccapurple; */
+    width: 100%;
+    margin: 0 auto;
+    margin: 15px 0 0 0;
+}
+
+.transferDiv{
+    /* border: solid 2px greenyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.cashDiv{
+    /* border: solid 2px greenyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.transferDiv label{
+    flex: 1;
+}
+
+#transfer{
+    flex: .5;
+}
+
+.cashDiv label{
+    flex: 1;
+}
+
+#cash{
+    flex: 1;
+}
+
